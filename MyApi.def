@@ -1,0 +1,8 @@
+; MyApi.def : Declares the module parameters for the DLL.
+
+LIBRARY      "MyApi"
+DESCRIPTION  'MyApi Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+	InitHook @1
